@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: rgba(19, 4, 4, 0.041);
+}
+
+.Resume{
+    max-width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    color: black;
+    background-color: white;
+    border: 20px solid #ddd;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);  /* Use rgba shadow only */
+}
+
+.sidebar{
+    width: 40%;
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    justify-content: none;
+}
+
+.sidebar .image-container{
+    position: relative;
+    margin-bottom: 20px;
+    position: center;
+}
+
+.sidebar .name{
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+.sidebar .section-contact{
+    margin-top: 30px;
+    font-size: 15px;
+    color: black;
+    line-height: 2.0;
+    text-align: left;
+    margin-bottom: 30px;   
+    justify-content: none;
+}
+
+.sidebar .section-contact .h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sidebar .section-contact p{
+    margin-bottom: 10px;
+}
+
+.sidebar .section-contact a{
+    color: #333;
+    text-decoration: none;
+}
+.sidebar .section-contact a:hover{
+    text-decoration: underline;
+}
+
+.sidebar .section-contact i{
+    margin-right: 5px;
+}
+
+.h2{
+    font-size: 50px;
+    color: #333;
+}
+.section{
+    margin-top: 30px;
+}
+
+.section h3{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.section p{
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 15px;
+}
+.section ul{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.section ul li{
+    font-size: 14px;
+    color: #666;
+    line-height: 2.0;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.section-profile .h2{
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 20px;    
+}
+
+.main-content{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    font-size: 20px;
+    color: #333;
+    line-height: 1.8;
+}
+
+.main-content h2{
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.main-content .h3{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-decoration: underline;
+  }
+  
+ .main-content p{
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section-career .h3{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.section-career p{
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.section-education .h3{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.section-career ul{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.section-career ul li{
+    font-size: 14px;
+    color: #666;
+    line-height: 2.0;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.section-skills .h3{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.section-skills p{
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+    text-align: left;
+    margin-top: 15px;
+}
+.section-skills ul{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section-skills ul li{
+    font-size: 14px;
+    color: #666;
+    line-height: 2.0;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.section-academy .h3{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.section-academy p{
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.section-academy ul{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section-academy ul li{
+    font-size: 14px;
+    color: #666;
+    line-height: 2.0;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.section-projects .h3{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+
+
+
